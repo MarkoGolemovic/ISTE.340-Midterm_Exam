@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #444;
+}
+
+#root {
+    max-width: 450px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+form {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+select, button {
+    display: inline-block;
+    -webkit-appearance: none;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #744a3e;
+    border-radius: 0px;
+}
+
+button {
+    cursor: pointer;
+    background: rgba(239, 230, 227, 0.8);
+    border: .05rem solid #744a3e;
+    color: #744a3e;
+    transition: background .2s, border .2s, box-shadow .2s, color .2s;
+}
+
+select {
+    width: 100%;
+}
+
+select:active,
+select:focus {
+    outline: 0;
+    border: 1px solid #007bff;
+}
+
+h1 {
+    color: #222;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: rgba(239, 230, 227, 0.8);
+    border-radius: 4px;
+}
+
+li span {
+    display: inline-block;
+    padding: .5rem;
+    width: 250px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
